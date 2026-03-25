@@ -121,25 +121,24 @@
             white-space: nowrap;
         }
 
-        .description {
+        .subtle-text a {
+            color: #444444;
+            text-decoration: none;
+        }
+
+        .subtle-text a:hover {
             color: #666666;
-            font-family: 'Poppins', sans-serif;
-            font-size: 0.9rem;
-            font-weight: 400;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, calc(-50% + 140px));
-            text-align: center;
-            max-width: 90vw;
-            line-height: 1.6;
         }
 
         @media (max-width: 768px) {
-            .description {
-                font-size: 0.8rem;
-                transform: translate(-50%, calc(-50% + 120px));
-                max-width: 85vw;
+            .subtle-text {
+                font-size: 0.85rem;
+                letter-spacing: 1px;
+                white-space: normal !important;
+                line-height: 1.6;
+                max-width: 90vw;
+                width: 90vw;
+                transform: translate(-50%, calc(-50% + 110px));
             }
         }
 
@@ -180,8 +179,7 @@
     <div class="content">
         <h1>Sempervirens Strategy</h1>
         <div class="subtle-text">
-            Building things and solving problems<br>
-            <a href="https://ow.svstrat.com">Opportunity Workbench</a> is our federal contract monitoring tool
+            <a href="https://ow.svstrat.com">Opportunity Workbench</a> - Federal contract intelligence platform
         </div>
     </div>
     <footer>
